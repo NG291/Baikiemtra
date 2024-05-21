@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Tính tích các phần tử chẵn
+<script>
+
+    let arr=[1,2,3,4,5,5,7,8]
+    let tich=1
+    for(let i=0;i<=arr.length-1;i++){
+        if(arr[i]%2===0) tich*=arr[i];
+    }
+
+    document.write('Tich cac phan tu:'+tich)
+</script>
+</body>
+</html>

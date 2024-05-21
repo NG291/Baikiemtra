@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Tìm max của các phần tử chẵn trong mảng-->
+<script>
+
+  let arr=[1,11,2,4,6,10,7,8]
+  let max=null
+  for(let i=0;i<=arr.length-1;i++) {
+    if (arr[i] % 2 === 0) {
+      if (arr[i]>max||max=== null){
+        max = arr[i]
+      }
+    }
+  }
+  if (max === null) {
+      document.write('Không có phần tử chẵn nào trong mảng');
+  } else {
+      document.write('max của các phần tử chẵn là: ' + max);
+  }
+</script>
+</body>
+</html>

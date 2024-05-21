@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+In ra các phần số chẵn trong h2, le trong h1;
+<script>
+    let arr=[1,2,3,4,5,5,7,8]
+    for(let i=0;i<=arr.length-1;i++){
+        if(arr[i]%2===0){
+            document.write(`<h1>`+'Phan tu chan:'+i+'='+ arr[i]+'<h1>')
+        }
+        else {
+            document.write(`<h2>`+'Phan tu chan:'+i+'='+ arr[i]+'<h2>')
+        }
+    }
+</script>
+</body>
+</html>

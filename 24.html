@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Đếm các số chia 5 dư 2 từ a đến b
+<script>
+    // ví dụ tính tích trong vòng lặp for: tích các số chãn chia hết cho 2 từ a==>b
+    let a=+prompt('Nhập số a: ')
+    let b=+prompt('Nhập sô b: ')
+    let dem=0;
+    for(let i=a;i<=b;i++)
+    {
+        if(i%5===2){
+            dem++
+        }
+    }
+    document.write('các số chia hết cho 5 dư 2 từ a-->b'+dem)
+</script>
+</body>
+</html>

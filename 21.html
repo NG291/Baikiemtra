@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+In ra các số từ a đến b số chẵn trong h2, so le trong h1;
+<script>
+    <!--In ra cac số từ 1 đến 1000;-->
+    let a=+prompt('Nhập số a: ')
+    let b=+prompt('Nhập sô b: ')
+    for(let i=a;i<=b;i++)
+    {
+        if(i%2===0)
+        {
+            document.write('<h1>' + i + '</h1>');
+        }
+        else
+        {
+            document.write('<h2>' + i + '</h2>');
+        }
+    }
+</script>
+</body>
+</html>
